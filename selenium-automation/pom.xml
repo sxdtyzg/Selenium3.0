@@ -10,7 +10,7 @@
 	<name>selenium-automation</name>
 	<url>http://maven.apache.org</url>
 
-    <!--此处解决 “JRE System Library”没有使用系统jre版本  -->
+	<!--此处解决 “JRE System Library”没有使用系统jre版本 -->
 	<build>
 		<finalName>MavenProject</finalName>
 		<plugins>
@@ -36,12 +36,12 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>3.0.0-beta4</version>
 		</dependency>
+
 	</dependencies>
 
 
