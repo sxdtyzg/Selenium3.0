@@ -11,6 +11,6 @@ public class TestLogin {
 		//WebDriver driver = new FirefoxDriver();
 		WebDriver driver = new ChromeDriver();
 		Login lg = PageFactory.initElements(driver, Login.class);
-		lg.login(driver,"sxdtyzg", "158943YANGzg");
+		lg.login(driver,"18710002864", "xxxxxx");
 	}
 }

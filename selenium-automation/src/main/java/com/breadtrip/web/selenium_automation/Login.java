@@ -9,15 +9,19 @@ import org.openqa.selenium.support.FindBy;
  *
  */
 public class Login {
-	@FindBy(id = "label_user")
+	//用户名
+	@FindBy(id = "txtUser")
 	private WebElement username;
 
+	//密码
 	@FindBy(id = "txtPass")
 	private WebElement password;
-
+	
+	//登录按钮
 	@FindBy(id = "loginBtn")
 	private WebElement loginBtn;
 
+	//登录
 	public void login(WebDriver dr, String username, String password) {
 		dr.get("http://mail.10086.cn/");
 		this.username.sendKeys(username);
