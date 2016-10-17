@@ -16,7 +16,7 @@
 
 	<!-- 繼承 -->
 	<url>http://maven.apache.org</url>
-	
+
 	<!--此处解决 “JRE System Library”没有使用系统jre版本 -->
 	<build>
 		<finalName>MavenProject</finalName>
@@ -29,13 +29,29 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
+			<!-- 
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.5.0</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>java</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<mainClass>com.breadtrip.web.selenium_automation.TestSearch</mainClass>
+				</configuration>
+			</plugin> -->
 		</plugins>
 	</build>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -58,7 +74,7 @@
 				<artifactId>selenium-automation</artifactId>
 				<version>${project.version}</version>
 			</dependency>
-			
+
 		</dependencies>
 	</dependencyManagement>
 
