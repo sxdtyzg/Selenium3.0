@@ -1,0 +1,4 @@
+1. 执行main函数
+   clean compile exec:java -Dexec.mainClass="com.breadtrip.web.selenium_automation.TestSearch"
+   
+2. 
