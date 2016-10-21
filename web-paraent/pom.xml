@@ -12,10 +12,13 @@
 		<module>../PageObject</module>
 		<module>../TestCases</module>
 		<module>../Utility</module>
+		<module>../Browsers</module>
+		<module>../BusinessLayer</module>
+		<module>../WindowsOperation</module>
 	</modules>
 
 
-	<!-- 繼承 -->
+	<!-- 继承 -->
 	<url>http://maven.apache.org</url>
 
 	<!--此处解决 “JRE System Library”没有使用系统jre版本 -->
@@ -51,6 +54,16 @@
 			</dependency>
 			<dependency>
 				<groupId>${project.groupId}</groupId>
+				<artifactId>Browsers</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>BusinessLayer</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
 				<artifactId>PageObject</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -64,7 +77,11 @@
 				<artifactId>Utility</artifactId>
 				<version>${project.version}</version>
 			</dependency>
-
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>WindowsOperation</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
