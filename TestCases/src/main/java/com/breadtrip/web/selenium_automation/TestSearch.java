@@ -6,7 +6,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class TestSearch {
 	public static void main(String[] args) {
-//		System.setProperty("webdriver.chrome.driver", "/Users/yzg/Downloads/chromedriver");
 		System.setProperty("webdriver.chrome.driver", "BrowserDriver/chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();

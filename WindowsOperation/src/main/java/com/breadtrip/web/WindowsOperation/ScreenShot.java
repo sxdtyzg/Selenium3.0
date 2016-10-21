@@ -4,7 +4,7 @@ package com.breadtrip.web.WindowsOperation;
  * Hello world!
  *
  */
-public class App 
+public class ScreenShot 
 {
 //	public void switchToWindow(String windowTitle){
 //
