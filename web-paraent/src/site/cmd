@@ -1,4 +1,4 @@
-1. 执行main函数
+1. 执行main函数(注意项目名称)
    clean compile exec:java -Dexec.mainClass="com.breadtrip.web.selenium_automation.TestSearch"
    
-2. 
+2. maven-surefire-plugin插件存放的位置，testng能否多个同时使用，自动启动

@@ -13,6 +13,10 @@
 	<packaging>jar</packaging>
 	<name>Browsers</name>
 
+	<properties>
+		<skipTests>true</skipTests>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>

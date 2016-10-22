@@ -15,6 +15,11 @@
 	<name>utility</name>
 
 
+	<properties>
+		<skipTests>true</skipTests>
+	</properties>
+
+
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
