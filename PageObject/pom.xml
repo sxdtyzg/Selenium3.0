@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.breadtrip.web</groupId>
-		<artifactId>web-paraent</artifactId>
+		<groupId>com.jrj.webtest</groupId>
+		<artifactId>paraent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../web-paraent/pom.xml</relativePath>
+		<relativePath>../PorjectParaent/pom.xml</relativePath>
 	</parent>
 
 	<artifactId>PageObject</artifactId>
